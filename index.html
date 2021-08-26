@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./styles/global.css">  
+        <link rel="stylesheet" href="./styles/slider.css"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+        <script src="controller.js"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+        <title>FBot - Equipe de Robótica</title>
+    </head>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="./assets/logosemfundo.png" />
+                <p>FBOT EQUIPE DE ROBÓTICA</p>
+            </div>
+            <ul>
+                <li><a href="#about">SOBRE</a></li>
+                <li><a href="#teams">EQUIPES</a></li>
+                <li><a href="#partners">PARCEIROS</a></li>
+                <li><a href="#awards">PRÊMIOS</a></li>
+                <li><a href="#footer">CONTATO</a></li>
+            </ul>
+        </nav>
+    </header>
+    <body>
+        <div id="slider">
+            <input type="radio" name="slider" id="slide1" checked>
+            <input type="radio" name="slider" id="slide2">
+            <input type="radio" name="slider" id="slide3">
+            <input type="radio" name="slider" id="slide4">
+            <div id="slides">
+               <div id="overflow">
+                  <div class="inner">
+                     <div class="slide slide_1">
+                        <div class="slide-content">
+                        </div>
+                     </div>
+                     <div class="slide slide_2">
+                        <div class="slide-content">
+                        </div>
+                     </div>
+                     <div class="slide slide_3">
+                        <div class="slide-content">
+                        </div>
+                     </div>
+                     <div class="slide slide_4">
+                        <div class="slide-content">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div id="controls">
+               <label for="slide1"></label>
+               <label for="slide2"></label>
+               <label for="slide3"></label>
+               <label for="slide4"></label>
+            </div>
+            <div id="bullets">
+               <label for="slide1"></label>
+               <label for="slide2"></label>
+               <label for="slide3"></label>
+               <label for="slide4"></label>
+            </div>
+         </div>
+
+        <section class="about" id="teams">
+            <div class="rec"></div>
+            <div class="rec2">
+                <h1>SOBRE A EQUIPE</h1>
+            </div>
+        </section>
+        <section class="content-card-about" id="about">
+            <img src="./assets/logosemfundo.png">
+            <p class="category">A equipe de robótica FBOT é uma iniciativa do Grupo de Automação e Robótica Inteligente da Universidade Federal do Rio Grande (FURG). Tendo inicialmente desenvolvido um time de robôs móveis autônomos, para participação em campeonatos de futebol de robôs na categoria Small Size. Atualmente presente nas categorias Standard Educational Kit, Desafio de Robótica Petrobras (DRP), Very Small Size Soccer e Small Size League e @Home.
+            </p>
+        </section>
+        <section class="about" id="teams">
+            <div class="rec"></div>
+            <div class="rec2">
+                <h1>EQUIPES</h1>
+            </div>
+        </section>
+        <section class="content-card">
+            <img src="./assets/fsek.png">
+            <div class="title-teams">
+                <h1>FSEK</h1>
+                <p class="category-text">O IEEE Standard Educational Kits, ex-categoria IEEE LEGO, tem como objetivo apresentar um desafio estimulante para estudantes de graduação que precisam montar robôs autônomos usando kits educacionais aprovados pela competição.  Atualmente a equipe utiliza do conjunto LEGO Mindstorm Education, que utiliza o EV3 para realizar os desafios propostos. Com uma programação de fácil aprendizado, o SEK é uma ótima porta de entrada para os alunos que desejam ingressar na área de robótica. A variedade de peças presente no conjunto permite diversas montagens, que depende unicamente da necessidade para cada desafio.
+                </p>
+            </div>
+        </section>
+        <hr>
+        <section class="content-card">
+            <img src="./assets/furgbol.png">
+            <div class="title-teams">
+                <h1>FURGBOL</h1>
+                <p class="category-text">Categoria especificada pela Robocup, consiste em robôs que jogam futebol, limitados ao tamanho de no máximo 180mm de diâmetro por aproximadamente 150mm de altura. Como característica importantes para um melhor desempenho dos robôs está a omnidirecionalidade, através de rodas especiais com dois graus de liberdade, permitindo que o robô se movimente em qualquer direção sem a necessidade de rotações em torno do próprio eixo. A arquitetura resume-se basicamente em um algoritmo para tomada de decisão que faz uso desde a parte de segmentação de imagens e localização de objetos em campo até a tomada de decisões sobre os dados obtidos pelo processo de segmentação e reconhecimento; um módulo de comunicação, para transmissão de dados entre o computador central e os robôs; e controle embarcado, que engloba toda a parte de hardware, ou seja, mecânica e eletrônica dos robôs.
+                </p>
+            </div>
+        </section>
+        <hr>
+        <section class="content-card">
+            <img src="./assets/vsss.png">
+            <div class="title-teams">
+                <h1>VSSS</h1>
+                <p class="category-text">A categoria Very Small Size Soccer da IEEE, consiste em  duas equipes adversárias de 3 robôs de até (7,5 x 7,5 x 7,5) cm jogarem um jogo de futebol de forma totalmente autônoma. O computador processa a imagem de uma câmera de vídeo colocada acima do campo e comanda os robôs, assim, tendo enfoque em uma eletrônica mais minuciosa e trabalhando bastante com visão computacional, além de utilizar protocolos de comunicação via rádio.  
+                </p>
+            </div>
+        </section>
+        <hr>
+        <section class="content-card">
+            <img src="./assets/butia.png">
+            <div class="title-teams">
+                <h1>ButiaBots</h1>
+                <p class="category-text">A categoria consiste em desenvolver robôs autônomos com tecnologias assistivas e de serviço que realizam tarefas domésticas. O nosso robô, DoRIS (Domestic Robotic Intelligent System), é uma parceria da Universidade Federal do Rio Grande (FURG) com a Universidade Federal de Santa Maria (UFSM). O robô, durante a competição, precisa passar por uma série de provas para avaliar suas habilidade e performance em atividades que fazem uso  de conceitos como interação e colaboração humano-robô, reconhecimento e manipulação de objetos, navegação em ambiente dinâmico e visão computacional, tudo isso em um ambiente doméstico realista e não padronizado. 
+                </p>
+            </div>
+        </section>
+        <hr>
+        <section class="content-card">
+            <img src="./assets/hydrone.png">
+            <div class="title-teams">
+                <h1>Hydrone</h1>
+                <p class="category-text">A categoria do Desafio de Robótica Petrobrás compõe-se de diversas tarefas a serem realizadas por um Veículo Aéreo Não Tripulado (VANT) autônomo, dentro de uma arena que simula uma plataforma de petróleo offshore real. Durante a competição, o drone deve ser capaz, através da inteligência online embarcada, de manter um voo estável, navegar, se localizar dentro do ambiente, detectar bases, sensores em funcionamento, blocos com QRCode, pousar e mover os blocos devidamente identificados, com segurança para o local desejado, entre outras tarefas. O nosso veículo Hydrone é o resultado da parceria entre a Universidade Federal do Rio Grande (FURG) e a Universidade Federal de Minas Gerais (UFMG). 
+                </p>
+            </div>
+        </section>
+        <hr>
+        <section class="about" id="awards">
+            <div class="rec"></div>
+            <div class="rec2">
+                <h1>PRÊMIOS</h1>
+            </div>
+        </section>
+        <section class="awards">
+            <div class="place">
+                <h1>1º LUGAR</h1>
+                <ol>
+                    <li>FURGBOL:I RoboCup Brazil - 2004</li>
+                    <li>FURGBOL:I Robot Soccer Contest - 2004</li>
+                    <li>FURGBOL:II RoboCup Brazil - 2006 </li>
+                    <li>FURGBOL:III RoboCup Brazil - 2006 </li>
+                    <li>FURGBOL:IV RoboCup Brazil - 2007 </li>
+                    <li>FURGBOL:V RoboCup Brazil - 2008</li>
+                    <li>FURGBOL:VI RoboCup Brazil - 2009</li>
+                    <li>Hydrone:Desafio de Robótica Petrobras - 2019</li>
+                    <li>Hydrone:Desafio de Robótica Petrobras - 2020</li>
+                </ol>
+            </div>
+            <div class="place">
+                <h1>2º LUGAR</h1>
+                <ol>
+                    <li>FURGBOL: II IEEE LASRC - 2004</li>
+                    <li>FURGBOL: III IEEE LASRC - 2005</li>
+                    <li>FURGBOL: III IEEE LASRC - 2008</li>
+                    <li>FURGBOL: VII RoboCup Brazil - 2010</li>
+                    <li>FURGBOL: CBR - 2013</li>
+                    <li>FURGBOL: LARC - 2014</li>
+                </ol>
+            </div>
+        </section>
+        <section class="awards">
+            <div class="place">
+                <h1>3º LUGAR</h1>
+                <ol>
+                    <li>FURGBOL: IX IEEE LASRC - 2010</li>
+                    <li>FURGBOL: CBR - 2011</li>
+                    <li>FURGBOL: LARC - 2012</li>
+                    <li>FURGBOL: LARC - 2015</li>
+                    <li>FURGBOL: LARC - 2016</li>
+                    <li>ButiaBots: LARC - 2018</li>
+                    <li>ButiaBots: LARC - 2019</li>
+                    <li>ButiaBots: LARC - 2020</li>
+                </ol>
+            </div>
+            <div class="place">
+                <h1>OUTRAS COLOCAÇÕES</h1>
+                <ol>
+                    <li> 4º Lugar - FURGBOL: II IEEE LASRC - 2003</li>
+                    <li> 5º Lugar - FSEK: LARC - 2017</li>
+                    <li> 9º Lugar - FURGBOL: IV RoboCup Atlanta - 2007</li>
+                </ol>
+            </div>
+        </section>
+        <hr>
+        <section class="about" id="partners">
+            <div class="rec"></div>
+            <div class="rec2">
+                <h1>PARCEIROS</h1>
+            </div>
+        </section>
+        <section class="content-card">
+            <div class="img-partners">
+                <a href="https://vetorial.net/"><img src="./assets/p1.png"></a>
+                <a href="https://compassouol.com/"><img src="./assets/p2.png"></a>
+                <a href="https://scadiagro.com.br/"><img src="./assets/p3.png"></a>
+            </div>
+        </section>
+    </body>
+    <footer id="footer">
+        <div class="contact">
+            <h1>FALE CONOSCO</h1>
+            <a href="https://www.facebook.com/furgbot/"> <i class="fab fa-facebook fa-3x"></i> </a>
+            <a href="https://www.instagram.com/furgbot/?hl=pt-br"> <i class="fab fa-instagram fa-3x"></i> </a>
+            <a href="https://www.linkedin.com/company/equipe-de-rob%C3%B3tica-furgbot/mycompany/"> <i class="fab fa-linkedin fa-3x"></i> </a>
+        </div>
+        <div class="contact">
+            <h1 class="produced">©2021 Emilly Lamotte</h1>
+        </div>
+</html>

@@ -1,0 +1,235 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+}
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+nav li{
+    margin: 0 15px;
+    color: #ffffff;
+    font-size: 1.4rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+ul :hover{
+    color: #da5f0f;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px;
+}
+header a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo p{
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 2rem;
+}
+.logo img{
+    width: 7rem;
+}
+header{
+    background-color: #003D7A;
+    width: 100%;
+    position: fixed;
+    z-index: 20;
+    top: 0;
+}
+.about{
+    display: flex;
+    position: relative;
+}
+.about h1{
+    color: white;
+    z-index: 10;
+    text-align: center;
+    align-items:center;
+    font-size: 1.6rem;
+}
+.rec2{
+    background: #003D7A;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+    width: 18rem;
+    height: 4rem;
+    clip-path: rect();
+    position: absolute;
+}
+.rec{
+    background:#da5f0f;;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    width: 18rem;
+    height: 4rem;
+    clip-path: rect();
+}
+.content-card{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+.content-card-about{
+    display: inline-flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+   
+ }
+ .content-card-about img{
+     width: 28rem;
+ }
+ .content-card-about .category{
+    color: #003D7A;
+    font-size: 1.5rem;
+    text-align: justify;
+    text-indent: 3rem;
+    align-items: center;
+    width: 60%;
+}
+.content-card .category{
+    color: #003D7A;
+    font-size: 1.5rem;
+    text-align: justify;
+    text-indent: 3rem;
+    align-items: center;
+    padding-top: 2rem;
+    width: 50%;
+}
+.content-card h1{
+    font-size: 2rem;
+    color: #da5f0f;
+}
+.content-card img{
+    width: 28rem;
+}
+.content-card a{
+    text-decoration:none;
+    cursor: pointer;
+}
+.content-card .category-text{
+    color: #003D7A;
+    font-size: 1.5rem;
+    text-align: justify;
+    text-indent: 3rem;
+}
+.title-teams{
+    width: 50%;
+    text-align: center;
+    align-items: center;
+}
+.title-teams h1{
+    width: 15rem;
+    margin: auto auto;
+    border:1px solid #da5f0f ;
+    padding: 0.5rem;
+}
+.awards{
+    display:flex;
+    margin: auto auto;
+    justify-content: center;
+}
+.place {
+    box-shadow:1px 3px 15px 7px rgba(0,0,0,0.47);
+    padding: 0.5rem;
+    word-wrap: break-word;
+    width: 500px;
+    height: 500px;
+    margin: 1rem 1rem;
+    text-align: center;
+}
+.awards h1{
+    color: #da5f0f;
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+    width: 15rem;
+    margin: auto;
+}
+.awards ol{
+    list-style:disc;
+}
+.place li{
+    color: #003D7A;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    text-align: justify;
+    justify-content: center;
+}
+.img-partners img{
+    width: 15rem;
+}
+footer{
+    background-color: #003D7A;
+    height: 15rem;
+    color: #ffffff;
+    margin-top: 3rem;
+    display: flex;
+    
+}
+footer .contact{
+    margin: auto 3rem;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+footer .contact i{
+    margin: 1rem;
+}
+footer img{
+    width: 15rem;
+    height: 15rem;
+}
+.contact h1{
+    font-size: 1.5rem;
+}
+footer a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #ffffff;
+}
+footer a:hover{
+    color: #da5f0f;
+}
+.contact .produced{
+    font-size: 1rem;
+    font-weight: lighter;
+}
+::-webkit-scrollbar-track {
+    background-color: #ffffff;  
+}
+::-webkit-scrollbar {
+    width: 6px;
+    background: black;
+    height: 12px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #da5f0f;
+    border-radius: 25px;       
+}
+/*Responsividade dos elementos
+@media(max-width:700px){
+    .slider{
+        visibility: hidden;
+    }
+    .content-card{
+        display: block;
+    }
+}
+*/

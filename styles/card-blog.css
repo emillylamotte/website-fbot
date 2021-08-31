@@ -1,0 +1,40 @@
+.card-blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+}
+.card-blog h2{
+    color: #000000;
+}
+.card-blog a{
+    text-decoration: none;
+}
+.card {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    border-left: 5px solid #da5f0f;
+    padding: 30px;
+    margin: 20px;
+    width: 400px;
+    min-height: 280px;
+    transition: all 0.3s ease-out;
+}
+.card:nth-child(even){
+    border-left: 5px solid #003d74;
+}
+.card:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+.card p {
+    color: #a3a5ae;
+    font-size: 16px;
+}
+.image {
+    float:right;
+    max-width: 80px;
+    max-height: 70px;
+}
+  

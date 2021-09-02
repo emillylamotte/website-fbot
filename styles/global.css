@@ -153,11 +153,10 @@ header{
     margin: 1rem 1rem;
     text-align: center;
     transition: all 0.3s ease-out;
-    border-bottom: 5px solid #da5f0f;
+    border-top: 5px solid #da5f0f;
 }
 .place:hover{
     transform: translateY(-5px);
-    cursor: pointer;
 }
 .awards h1{
     color: #da5f0f;
@@ -228,7 +227,7 @@ footer a:hover{
 ::-webkit-scrollbar {
     width: 6px;
     background: black;
-    height: 12px;
+    height: 6px;
 }
 ::-webkit-scrollbar-thumb {
     background-color: #da5f0f;

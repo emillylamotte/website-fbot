@@ -1,28 +1,32 @@
 .card-blog{
-    display: flex;
     justify-content: center;
     align-items: center;
-    width: 98%;
-    margin: auto;
-    overflow-x:scroll;
+    align-content: center;
+    overflow-x:auto;
+    overflow-y:hidden ;
+    width: 100%;
+    margin: auto auto;
+    white-space: nowrap;
 }
 .card-blog h2{
     color: #000000;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 .card-blog a{
     text-decoration: none;
 }
 .card {
+    display: inline-block;
+    padding: 30px;
+    margin: 20px;
+    width: 400px;
+    height: 250px;
     border-radius: 5px;
     box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
     border-left: 5px solid #da5f0f;
-    padding: 30px;
-    margin: 20px;
-    min-width: 450px;
-    min-height: 250px;
     transition: all 0.3s ease-out;
-    overflow: auto;
+    word-break: break-word;
+    white-space: normal;
 }
 .card:nth-child(even){
     border-left: 5px solid #003d74;
@@ -37,7 +41,7 @@
 }
 .image {
     float:right;
-    max-width: 80px;
-    max-height: 70px;
+    max-width:6rem;
+    max-height: 6rem;
 }
   

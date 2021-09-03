@@ -9,6 +9,7 @@ body{
     scroll-behavior: smooth;
     transition: all 0.4s;
 }
+/*Header*/
 ul{
     list-style: none;
     display: flex;
@@ -52,11 +53,12 @@ header{
     z-index: 20;
     top: 0;
 }
-.about{
+/*Divisores de sections (retângulos)*/
+.divisors{
     display: flex;
     position: relative;
 }
-.about h1{
+.divisors h1{
     color: white;
     z-index: 10;
     text-align: center;
@@ -82,22 +84,17 @@ header{
     height: 4rem;
     clip-path: rect();
 }
-.content-card{
-   display: flex;
-   justify-content: space-around;
-   align-items: center;
-}
+/*Section about*/
 .content-card-about{
     display: inline-flex;
     flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
-   
  }
  .content-card-about img{
      width: 28rem;
  }
- .content-card-about .category{
+ .content-card-about .text{
     color: #003D7A;
     font-size: 1.5rem;
     text-align: justify;
@@ -105,15 +102,12 @@ header{
     align-items: center;
     width: 60%;
 }
-.content-card .category{
-    color: #003D7A;
-    font-size: 1.5rem;
-    text-align: justify;
-    text-indent: 3rem;
+/*Sections Teams*/
+.content-card{
+    display: flex;
+    justify-content: space-around;
     align-items: center;
-    padding-top: 2rem;
-    width: 50%;
-}
+ }
 .content-card h1{
     font-size: 2rem;
     color: #da5f0f;
@@ -142,6 +136,7 @@ header{
     border:1px solid #da5f0f ;
     padding: 0.5rem;
 }
+/*Section awards*/
 .awards{
     display:flex;
     margin: auto auto;
@@ -179,6 +174,12 @@ header{
     text-align: justify;
     justify-content: center;
 }
+/*Section partners*/
+.content-card-partners{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
 .img-partners img{
     width: 15rem;
     transition: all 0.3s ease-out;
@@ -187,13 +188,13 @@ header{
     transform: translateY(-5px);
     cursor: pointer;
 }
+/*Footer e contact*/
 footer{
     background-color: #003D7A;
     height: 15rem;
     color: #ffffff;
     margin-top: 3rem;
     display: flex;
-    
 }
 footer .contact{
     margin: auto 3rem;
@@ -224,6 +225,7 @@ footer a:hover{
     font-size: 1rem;
     font-weight: lighter;
 }
+/*Scroll bar*/
 ::-webkit-scrollbar-track {
     background-color: #ffffff;  
 }
@@ -236,13 +238,3 @@ footer a:hover{
     background-color: #da5f0f;
     border-radius: 25px;       
 }
-/*Responsividade dos elementos
-@media(max-width:700px){
-    .slider{
-        visibility: hidden;
-    }
-    .content-card{
-        display: block;
-    }
-}
-*/

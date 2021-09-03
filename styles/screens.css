@@ -1,0 +1,158 @@
+/*Mobile:Celular*/
+@media(max-width:500px){
+    /*Slider*/
+    #slides{
+        display: none;
+    }
+    /*About*/
+    .content-card-about{
+        display: inline-block;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        margin: auto auto;
+        text-align: center;
+     }
+     .content-card-about .text{
+        width: 95%;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        align-items: center;
+        overflow-x: hidden;
+     }
+     .content-card-about img{
+         width: 25rem;
+     }
+     /*Teams*/
+     .content-card{
+         display: inline-flex;
+         flex-direction: column;
+         margin: auto auto;
+         text-align: center;
+         max-width: 95%;
+     }
+     .content-card img{
+        width: 25rem;
+        text-align: center;
+     }
+     .content-card .category-text{
+        align-items: center;
+     }
+    .title-teams{
+        width: 90%;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        text-align: center;
+        align-items: center;
+        overflow-x: hidden;
+     }
+     /*Awards*/
+     .awards{
+         display: flex;
+         flex-direction:column;
+         text-align: center;
+         margin: auto auto;
+     }
+     .place{
+        text-align: center;
+     }
+     .place:hover{
+        transform: none;
+     }
+     /*Blog*/
+     .card{
+         max-width: 250px;
+         height: 250px;
+         word-break: break-word;
+         transition: none;
+     }
+     .card:hover {
+        transform: none;
+        cursor:pointer;
+     }
+     .image{
+         display: none;
+     }
+     /*Partners*/
+     .content-card-partners{
+        display: inline-block;
+        width: 100%;
+        margin: auto auto;
+        justify-content: center;
+        align-items: center;
+     }
+     .img-partners{
+         text-align: center;
+     }
+     .img-partners img{
+        width: 10rem;
+     }
+     /*Footer e contact*/
+     footer{
+         height: 100vh;
+         width: 100%;
+         display: inline-block;
+         margin: auto auto;
+         align-items: center;
+         justify-content: center;
+     }
+     footer .contact{
+        margin: auto 3rem;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+     }
+}
+
+/*Mobile:Tablet*/
+@media(max-width:900px){
+    /*About*/
+     
+     /*Teams*/
+     .content-card{
+         width: 90%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+     }
+     .content-card img{
+        width: 22rem;
+        text-align: center;
+    }
+     .content-card .category-text{
+        align-items: center;
+        width: 100%;
+    }
+    .title-teams{
+        min-width: 60%;
+        text-align: center;
+        align-items: center;
+        overflow-x: hidden;
+    }
+     /*Awards*/
+     .awards{
+         display: flex;
+         flex-direction:column;
+         text-align: center;
+         margin: auto auto;
+     }
+     .place{
+        text-align: center;
+     }
+     .place:hover{
+        transform: none;
+    }
+     /*Blog*/
+     .card{
+         max-width: 250px;
+         height: 250px;
+         word-break: break-word;
+         transition: none;
+     }
+     .card:hover {
+        transform: none;
+        cursor:pointer;
+    }
+     
+}
+

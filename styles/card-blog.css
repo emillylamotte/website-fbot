@@ -10,7 +10,7 @@
 }
 .card-blog h2{
     color: #000000;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 .card-blog a{
     text-decoration: none;
@@ -41,7 +41,7 @@
 }
 .image {
     float:right;
-    max-width:6rem;
-    max-height: 6rem;
+    width:4rem;
+    height: 4rem;
 }
   

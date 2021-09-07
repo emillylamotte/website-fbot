@@ -1,3 +1,3 @@
 # Website da Equipe de Robótica FBot
 
-Ativa em: https://emillylamotte.github.io/website-fbot/
+Prévia em: https://emillylamotte.github.io/website-fbot/

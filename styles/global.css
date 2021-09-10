@@ -1,58 +1,78 @@
 *{
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 90px;
+}
 body{
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
     color: #ffffff;
-    scroll-behavior: smooth;
-    transition: all 0.4s;
+    /*scroll-behavior: smooth;
+    transition: all 0.4s;*/
 }
-/*Header*/
-ul{
-    list-style: none;
-    display: flex;
-    align-items: center;
-}
-nav li{
-    margin: 0 15px;
-    color: #ffffff;
-    font-size: 1.4rem;
-    font-weight: 600;
-    cursor: pointer;
-}
-ul :hover{
-    color: #da5f0f;
-}
-nav{
-    display: flex;
-    justify-content: space-between;
-    margin: 0 30px;
-}
-header a{
-    text-decoration: none;
-    color: #ffffff;
-}
-.logo{
-    display: flex;
-    align-items: center;
-}
-.logo p{
-    font-weight: 600;
-    color: #ffffff;
-    font-size: 2rem;
-}
-.logo img{
-    width: 7rem;
-}
-header{
-    background-color: #003D7A;
-    width: 100%;
+/* lists */
+.list-full, .list-full li,
+.list-auto, .list-auto li { width: 100%; float: left; display: block; position: relative; }
+.list-auto, .list-auto li { width: auto; }
+
+/* floats */
+.float-l { float: left; }
+.float-r { float: right; }
+header {
+    min-height: 60px;
     position: fixed;
-    z-index: 20;
     top: 0;
-}
+    right: 0;
+    left: 0;
+    background: #003D7A;
+    z-index: 2;
+  }
+  
+  header h1 {
+    padding: 10px 0 0 10px;
+  }
+  
+  header h1 a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  header ul {
+    padding: 15px 10px 0 0;
+  }
+  
+  header li {
+    border-left: 2px solid #da5f0f;
+  }
+  
+  header li:first-child {
+    border: none;
+  }
+  
+  header li a {
+    display: block;
+    padding: 0 10px;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    text-decoration: none;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+  }
+  header li a:hover {
+    color: #da5f0f;
+  }
+  
+  input#control-nav {
+    visibility: hidden;
+    position: absolute;
+    left: -9999px;
+    opacity: 0;
+  }
 /*Divisores de sections (retângulos)*/
 .divisors{
     display: flex;
@@ -76,7 +96,7 @@ header{
     position: absolute;
 }
 .rec{
-    background:#da5f0f;;
+    background:#da5f0f;
     justify-content: center;
     align-items: center;
     margin: 2rem;

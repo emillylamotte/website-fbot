@@ -11,12 +11,12 @@ body{
     font-family: 'Montserrat', sans-serif;
     color: #ffffff;
 }
-/* lists */
+/*Lists*/
 .list-full, .list-full li,
 .list-auto, .list-auto li { width: 100%; float: left; display: block; position: relative; }
 .list-auto, .list-auto li { width: auto; }
 
-/* floats */
+/*Floats*/
 .float-l { float: left; }
 .float-r { float: right; }
 header {
@@ -27,8 +27,7 @@ header {
     left: 0;
     background: #003D7A;
     z-index: 10;
-  }
-  
+} 
 header h1 {
     padding: 10px 0 0 10px;
 }
@@ -49,7 +48,7 @@ header li a {
     display: block;
     padding: 0 10px;
     color: #ffffff;
-    font-size: 25px;
+    font-size: 1.5rem;
     font-weight: 600;
     line-height: 30px;
     text-decoration: none;

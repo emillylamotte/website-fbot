@@ -3,6 +3,8 @@
 ## 📄Sobre o projeto
 Website desenvolvido durante participação na Equipe de Robótica FBOT. O website apresenta a nova identidade visual da equipe, assim como todas as informações sobre as competições e sub-equipes. A aplicação é totalmente responsiva, podendo ser acessada por qualquer dispositivo móvel ou desktop.
 
+-  Hospedado em: http://www.fbot.c3.furg.br/
+
 ## 💻Tecnologias Utilizadas
 - HTML;
 - CSS;
@@ -24,7 +26,5 @@ Website desenvolvido durante participação na Equipe de Robótica FBOT. O websi
   <img src="https://user-images.githubusercontent.com/79487290/133342490-f5f656b1-1a28-478c-a750-b3c775973406.gif" width="300"/>
 </p>
 <br>
-
- Hospedado em: http://www.fbot.c3.furg.br/
  
  ✔️Por Emilly Lamotte em Setembro/2021.

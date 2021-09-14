@@ -97,21 +97,24 @@ input#control-nav {
 }
 /*Section about*/
 .content-card-about{
-    display: inline-flex;
-    flex-direction: row-reverse;
-    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
  }
- .content-card-about img{
-     width: 28rem;
- }
- .content-card-about .text{
+.content-card-about img{
+    width: 28rem;
+}
+.content-card-about .text{
     color: #003D7A;
     font-size: 1.5rem;
     text-align: justify;
     text-indent: 3rem;
+}
+.about{
+    width: 50%;
+    text-align: center;
     align-items: center;
-    width: 60%;
 }
 /*Sections Teams*/
 .content-card{

@@ -346,6 +346,7 @@
         align-items: center;
         justify-content: center;
         margin: auto auto;
+        width: 100%;
      }
      .content-card-about img{
          width: 22rem;
@@ -410,5 +411,8 @@
      .card:hover {
         transform: none;
         cursor:pointer;
+    }
+    .card img{
+        display: none;
     }
 }

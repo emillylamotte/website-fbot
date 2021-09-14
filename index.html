@@ -12,23 +12,39 @@
         <script src="controller.js"></script>
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
-        <title>FBot - Robotics Team</title>
+        <title>FBOT - Robotics Team</title>
     </head>
     <header>
-        <nav>
-            <div class="logo">
-                <img src="./assets/logosemfundo.png" />
-                <p>FBOT - ROBOTICS TEAM</p>
-            </div>
-            <ul>
-                <li><a href="#about">ABOUT</a></li>
-                <li><a href="#teams">TEAMS</a></li>
-                <li><a href="#awards">AWARDS</a></li>
-                <li><a href="#blog">BLOG</a></li>
-                <li><a href="#partners">PARTNERS</a></li>
-                <li><a href="#footer">CONTACT</a></li>
+        <h1 class="float-l">
+            <a href="#" title="Titulo do Site">FBOT - ROBOTICS TEAM</a>
+        </h1>
+          
+          <input type="checkbox" id="control-nav" />
+          <label for="control-nav" class="control-nav"></label>
+          <label for="control-nav" class="control-nav-close"></label>
+    
+          <nav class="float-r">
+            <ul class="list-auto">
+              <li>
+                <a href="#about">ABOUT US</a>
+              </li>
+              <li>
+                <a href="#teams">TEAMS</a>
+              </li>
+              <li>
+                <a href="#awards">AWARDS</a>
+              </li>
+              <li>
+                <a href="#blog">BLOG</a>
+              </li>
+              <li>
+                <a href="#partners">PARTNERS</a>
+              </li>
+              <li>
+                <a href="#contact">CONTACT</a>
+              </li>
             </ul>
-        </nav>
+          </nav>
     </header>
     <body>
         <div id="slider">
@@ -78,13 +94,14 @@
                 <h1>ABOUT US</h1>
             </div>
         </section>
-        <section class="content-card-about" id="about">
-            <img src="./assets/logosemfundo.png">
-            <p class="text">The robotic team FBOT is initiative made by the Universidade Federal do Rio Grande automation and intelligent robotics group. Having, at first, a mobile and autonomous robot team, to participate in robot soccer championships in the small size category. Nowadays, present in standard educational kit, desafio robótica Petrobras (DRP), Very small size soccer and small size league and @Home.
-            </p>
+        <section class="content-card-about">
+            <div class="about">
+                <img src="./assets/logosemfundo.png">
+                <p class="text">The robotic team FBOT is initiative made by the Universidade Federal do Rio Grande automation and intelligent robotics group. Having, at first, a mobile and autonomous robot team, to participate in robot soccer championships in the small size category. Nowadays, present in standard educational kit, desafio robótica Petrobras (DRP), Very small size soccer and small size league and @Home.
+                </p>
+            </div>
         </section>
         <hr>
-
         <section class="divisors" id="teams">
             <div class="rec"></div>
             <div class="rec2">
@@ -131,7 +148,7 @@
             <img src="./assets/hydrone.png">
             <div class="title-teams">
                 <h1>Hydrone</h1>
-                <p class="category-text">The desafio de robótica Petrobrás category is composed by many tasks to be performed by a autonomous unmanned aerial vehicle, inside a arena that simulate a real offshore petroleum platform. During the competition, the drone must be able, through embedded online intelligence, to maintain a stable flight, navigate, auto-localize in the environment, base detection, functional sensors, analyze QRcode blocks, land and manipulate the identified blocks, all of that safely in the desired spot, among other tasks. Our Hydrone vehicle is a result of the partnership between the Universidade Federal do Rio Grande (FURG) and the Universidade Federal de Minas Gerais (UFMG).
+                <p class="category-text">The desafio de robótica Petrobras category is composed by many tasks to be performed by a autonomous unmanned aerial vehicle, inside a arena that simulate a real offshore petroleum platform. During the competition, the drone must be able, through embedded online intelligence, to maintain a stable flight, navigate, auto-localize in the environment, base detection, functional sensors, analyze QRcode blocks, land and manipulate the identified blocks, all of that safely in the desired spot, among other tasks. Our Hydrone vehicle is a result of the partnership between the Universidade Federal do Rio Grande (FURG) and the Universidade Federal de Minas Gerais (UFMG).
                 </p>
             </div>
         </section>
@@ -212,27 +229,27 @@
               <a class="card" href="https://ieeexplore.ieee.org/abstract/document/9307024"><div>
                 <h2>Visual-based Autonomous Unmanned Aerial Vehicle for Inspection in Indoor Environments
                 </h2>
-                <p>07 January 2021</p>
+                <p>January 07, 2021</p>
                 <img class="image" src="./assets/hydrone.png" >
               </div></a>
               <a class="card" href="https://ieeexplore.ieee.org/abstract/document/8981667"><div>
                 <h2>A Study on Configuration of Propellers for Multirotor-like Hybrid Aerial-Aquatic Vehicles</h2>
-                <p>06 February 2020</p>
+                <p>February 06, 2020</p>
                 <img class="image" src="./assets/hydrone.png" >
               </div></a>
               <a class="card" href="https://ieeexplore.ieee.org/abstract/document/8593556"><div>
                 <h2>A Comparative Study on Sigma-Point Kalman Filters for Trajectory Estimation of Hybrid Aerial-Aquatic Vehicles</h2>
-                <p>07 January 2019</p>
+                <p>January 07, 2019</p>
                 <img class="image" src="./assets/hydrone.png" >
               </div></a>
               <a class="card" href="https://ieeexplore.ieee.org/abstract/document/7139029"><div>
                 <h2>Attitude control for an Hybrid Unmanned Aerial Underwater Vehicle: A robust switched strategy with global stability</h2>
-                <p>02 July 2015</p>
+                <p>July 02, 2015</p>
                 <img class="image" src="./assets/hydrone.png" >
               </div></a>
               <a class="card" href="https://ieeexplore.ieee.org/abstract/document/6943220"><div>
                 <h2>Hybrid Unmanned Aerial Underwater Vehicle: Modeling and simulation</h2>
-                <p>06 November 2014</p>
+                <p>November 06, 2014</p>
                 <img class="image" src="./assets/hydrone.png" >
               </div></a>
         </section>
@@ -253,7 +270,7 @@
         </section>
     </body>
 
-    <footer id="footer">
+    <footer id="contact">
         <div class="contact">
             <h1>CONTACT US</h1>
             <a href="https://www.facebook.com/furgbot/"> <i class="fab fa-facebook fa-3x"></i> </a>
@@ -263,4 +280,5 @@
         <div class="contact">
             <h1 class="produced">©2021 Emilly Lamotte</h1>
         </div>
+    </footer>
 </html>

@@ -4,13 +4,13 @@
     align-content: center;
     overflow-x:auto;
     overflow-y:hidden ;
-    width: 100%;
+    width: 98%;
     margin: auto auto;
     white-space: nowrap;
 }
 .card-blog h2{
     color: #000000;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 .card-blog a{
     text-decoration: none;
@@ -41,7 +41,7 @@
 }
 .image {
     float:right;
-    width:4rem;
-    height: 4rem;
+    max-width:6rem;
+    max-height: 6rem;
 }
   

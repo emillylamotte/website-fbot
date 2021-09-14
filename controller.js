@@ -7,6 +7,6 @@
             behavior:'smooth'
         });
     });
-});
+}); 
 */
 

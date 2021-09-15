@@ -1,4 +1,4 @@
-# 🤖 Website da Equipe de Robótica FBOT
+# Website da Equipe de Robótica FBOT 🤖
 
 ## 📄Sobre o projeto
 Website desenvolvido durante participação na Equipe de Robótica FBOT. O website apresenta a nova identidade visual da equipe, assim como todas as informações sobre as competições e sub-equipes. A aplicação é totalmente responsiva, podendo ser acessada por qualquer dispositivo móvel ou desktop.

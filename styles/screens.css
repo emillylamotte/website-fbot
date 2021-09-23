@@ -202,6 +202,14 @@
      .image{
          display: none;
      }
+     .card .first-card{
+        height: 75px;
+        line-height: 75px;
+    }
+    .card .last-card{
+        height: 110px;
+        line-height: 25px;
+    }
      /*Partners*/
      .content-card-partners{
         display: flex;

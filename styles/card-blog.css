@@ -1,7 +1,4 @@
 .card-blog{
-    justify-content: center;
-    align-items: center;
-    align-content: center;
     overflow-x:auto;
     overflow-y:hidden ;
     width: 98%;
@@ -28,6 +25,14 @@
     word-break: break-word;
     white-space: normal;
 }
+.card .first-card{
+    height: 55px;
+    line-height: 55px;
+}
+.card .last-card{
+    height: 55px;
+    line-height: 25px;
+}
 .card:nth-child(even){
     border-left: 5px solid #003d74;
 }
@@ -44,4 +49,3 @@
     max-width:6rem;
     max-height: 6rem;
 }
-  

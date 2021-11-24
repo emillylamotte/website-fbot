@@ -11,11 +11,14 @@ header{
     justify-content: center;
     align-items: center;
 }
+.header-content{
+    display: none;
+}
 header img{
-    width: 7rem;
+    width: 6.5rem;
 }
 header h1{
-    font-size: 2.5rem;
+    font-size: 2.2rem;
 }
 /*Divisors*/
 .divisors-subpage{
@@ -128,6 +131,7 @@ input[name="grupo"]:checked + label img{
 }
 .container .box{
   width: calc(33% - 10px);
+  min-height: 400px;
   background: #fff;
   display: flex;
   flex-direction: column;
@@ -138,12 +142,7 @@ input[name="grupo"]:checked + label img{
   border: 2px solid #003D7A;
   margin-bottom: 25px;
 }
-.box .quote i{
-margin-top: 10px;
-font-size: 45px;
-color: #17c0eb
-}
-.container .box .image{
+.container .box .image-profile{
   margin: 10px 0;
   height: 250px;
   width: 250px;
@@ -151,14 +150,14 @@ color: #17c0eb
   padding: 3px;
   border-radius: 50%;
 }
-.box .image img{
+.box .image-profile img{
   height: 100%;
   width: 100%;
   border-radius: 50%;
   object-fit: cover;
   border: 2px solid #fff;
 }
-.image {
+.image-profile {
     float:right;
     max-width:6.5rem;
     max-height: 6.5rem;
@@ -194,8 +193,10 @@ color: #17c0eb
   }
 }
 @media (max-width:710px){
-  .container .box{
+    /*Cards profile*/
+    .container .box{
     width: 100%;
+   
   }
 }
 /*Contributions cards*/
@@ -246,5 +247,3 @@ color: #17c0eb
     font-size: 16px;
     margin-top: 1rem;
 }
-
-

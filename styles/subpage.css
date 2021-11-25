@@ -56,17 +56,28 @@ header h1{
     clip-path: rect();
 }
 /*Section About*/
+.content-card-subpage{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+.content-card-subpage iframe{
+    border: 4px solid #003D7A;
+    padding: 5px;
+}
+
+.content-card-subpage .category-text{
+    color: #003D7A;
+    font-size: 1.5rem;
+    text-align: justify;
+    text-indent: 3rem;
+}
 .title-teams-subpage{
     width: 50%;
     text-align: center;
     align-items: center;
 }
-.title-teams-subpage h1{
-    width: 15rem;
-    margin: 2rem auto;
-    border:1px solid #da5f0f ;
-    padding: 0.5rem;
-}
+
 /*Team Members cards*/
 *{
   margin: 0px;
@@ -207,9 +218,6 @@ header h1{
 }
 
 /*Galery and video player*/
-.galery-video iframe{
-  border:solid 2px white;
-}
 .galery{
     background-color: #003D7A;
     height: 520px;

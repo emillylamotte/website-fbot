@@ -150,6 +150,11 @@ input#control-nav {
     border:1px solid #da5f0f ;
     padding: 0.5rem;
 }
+.title-teams :first-child :hover{
+    color: #ffffff;
+    background-color: #da5f0f;
+    border:1px solid #ffffff ;
+}
 /*Section awards*/
 .awards{
     display:flex;

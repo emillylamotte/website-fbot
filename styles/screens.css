@@ -4,6 +4,9 @@
         overflow-x: hidden;
     }
     /*Header*/
+    header img{
+        display: none;
+    }
     header nav {
         position: fixed;
         top: 0;
@@ -251,6 +254,10 @@
     .contact h1{
         font-size: 1rem;
     }
+    /*Subpage - Team members*/
+    .container .box{
+        width: 100%;
+    }
 }
 /*Mobile:Tablet*/
 @media(max-width:900px){
@@ -423,4 +430,9 @@
     .card img{
         display: none;
     }
+    /*Subpages - Team members*/
+    .container .box{
+        width: calc(50% - 10px);
+        margin-bottom: 20px;
+      }
 }

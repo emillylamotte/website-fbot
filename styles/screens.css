@@ -254,10 +254,10 @@
     .contact h1{
         font-size: 1rem;
     }
-    /*Subpage*/
+    /*Subpage - Team members*/
     .container .box{
         width: 100%;
-      }
+    }
 }
 /*Mobile:Tablet*/
 @media(max-width:900px){
@@ -430,7 +430,7 @@
     .card img{
         display: none;
     }
-    /*Subpages*/
+    /*Subpages - Team members*/
     .container .box{
         width: calc(50% - 10px);
         margin-bottom: 20px;

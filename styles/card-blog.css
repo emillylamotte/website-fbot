@@ -1,0 +1,51 @@
+.card-blog{
+    overflow-x:auto;
+    overflow-y:hidden ;
+    width: 98%;
+    margin: auto auto;
+    white-space: nowrap;
+}
+.card-blog h2{
+    color: #000000;
+    font-size: 1rem;
+}
+.card-blog a{
+    text-decoration: none;
+}
+.card {
+    display: inline-block;
+    padding: 30px;
+    margin: 20px;
+    width: 400px;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    border-left: 5px solid #da5f0f;
+    transition: all 0.3s ease-out;
+    word-break: break-word;
+    white-space: normal;
+}
+.card .first-card{
+    height: 55px;
+    line-height: 55px;
+}
+.card .last-card{
+    height: 55px;
+    line-height: 25px;
+}
+.card:nth-child(even){
+    border-left: 5px solid #003d74;
+}
+.card:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+.card p {
+    color: #a3a5ae;
+    font-size: 16px;
+}
+.image {
+    float:right;
+    max-width:6rem;
+    max-height: 6rem;
+}

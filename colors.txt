@@ -1,0 +1,5 @@
+azul-logo:  #3a5477;
+header: #1F3D7A;
+header2: #003D7A;
+laranja-logo: #da5f0f;
+background: #ffffff

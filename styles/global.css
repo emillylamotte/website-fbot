@@ -1,0 +1,259 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 90px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+}
+/*Lists*/
+.list-full, .list-full li,
+.list-auto, .list-auto li { width: 100%; float: left; display: block; position: relative; }
+.list-auto, .list-auto li { width: auto; }
+
+/*Floats*/
+.float-l { float: left; }
+.float-r { float: right; }
+header {
+    min-height: 60px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: #003D7A;
+    z-index: 10;
+} 
+header h1 {
+    padding: 10px 0 0 10px;
+}
+header h1 a {
+    color: #ffffff;
+    text-decoration: none;
+}  
+header ul {
+    padding: 15px 10px 0 0;
+}  
+header li {
+    border-left: 2px solid #da5f0f;
+}  
+header li:first-child {
+    border: none;
+}  
+header li a {
+    display: block;
+    padding: 0 10px;
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 30px;
+    text-decoration: none;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+header li a:hover {
+    color: #da5f0f;
+}  
+input#control-nav {
+    visibility: hidden;
+    position: absolute;
+    left: -9999px;
+    opacity: 0;
+}
+/*Divisores de sections (retângulos)*/
+.divisors{
+    display: flex;
+    position: relative;
+}
+.divisors h1{
+    color: white;
+    z-index: 10;
+    text-align: center;
+    align-items:center;
+    font-size: 1.6rem;
+}
+.rec2{
+    background: #003D7A;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+    width: 18rem;
+    height: 4rem;
+    clip-path: rect();
+    position: absolute;
+}
+.rec{
+    background:#da5f0f;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    width: 18rem;
+    height: 4rem;
+    clip-path: rect();
+}
+/*Section about*/
+.content-card-about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+ }
+.content-card-about img{
+    width: 28rem;
+}
+.content-card-about .text{
+    color: #003D7A;
+    font-size: 1.5rem;
+    text-align: justify;
+    text-indent: 3rem;
+}
+.about{
+    width: 50%;
+    text-align: center;
+    align-items: center;
+}
+/*Sections Teams*/
+.content-card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+.content-card h1{
+    font-size: 2rem;
+    color: #da5f0f;
+}
+.content-card img{
+    width: 28rem;
+}
+.content-card a{
+    text-decoration:none;
+    cursor: pointer;
+}
+.content-card .category-text{
+    color: #003D7A;
+    font-size: 1.5rem;
+    text-align: justify;
+    text-indent: 3rem;
+}
+.title-teams{
+    width: 50%;
+    text-align: center;
+    align-items: center;
+}
+.title-teams h1{
+    width: 15rem;
+    margin: auto auto;
+    border:1px solid #da5f0f ;
+    padding: 0.5rem;
+}
+.title-teams :first-child :hover{
+    color: #ffffff;
+    background-color: #da5f0f;
+    border:1px solid #ffffff ;
+}
+/*Section awards*/
+.awards{
+    display:flex;
+    margin: auto auto;
+    justify-content: center;
+}
+.place {
+    box-shadow:1px 3px 15px 7px rgba(0,0,0,0.47);
+    padding: 0.5rem;
+    word-wrap: break-word;
+    width: 500px;
+    height: 500px;
+    margin: 1rem 1rem;
+    text-align: center;
+    transition: all 0.3s ease-out;
+    border-top: 5px solid #da5f0f;
+}
+.place:hover{
+    transform: translateY(-5px);
+}
+.awards h1{
+    color: #da5f0f;
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+    width: 15rem;
+    margin: auto;
+}
+.awards ol{
+    list-style:disc;
+}
+.place li{
+    color: #003D7A;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    text-align: justify;
+    justify-content: center;
+}
+/*Section partners*/
+.content-card-partners{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+.img-partners img{
+    width: 15rem;
+    transition: all 0.3s ease-out;
+}
+.img-partners img:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+/*Footer e contact*/
+footer{
+    background-color: #003D7A;
+    height: 15rem;
+    color: #ffffff;
+    margin-top: 3rem;
+    display: flex;
+}
+footer .contact{
+    margin: auto 3rem;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+footer .contact i{
+    margin: 1rem;
+}
+footer img{
+    width: 15rem;
+    height: 15rem;
+}
+.contact h1{
+    font-size: 1.5rem;
+}
+footer a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #ffffff;
+}
+footer a:hover{
+    color: #da5f0f;
+}
+.contact .produced{
+    font-size: 1rem;
+    font-weight: lighter;
+}
+/*Scroll bar*/
+::-webkit-scrollbar-track {
+    background-color: #ffffff;  
+}
+::-webkit-scrollbar {
+    width: 6px;
+    background: black;
+    height: 6px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #da5f0f;
+    border-radius: 25px;       
+}

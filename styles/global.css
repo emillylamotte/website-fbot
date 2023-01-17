@@ -1,6 +1,18 @@
 *{
     box-sizing: border-box;
 }
+header{
+    display: flex;
+    flex-direction: row;
+}
+header img{
+    position: relative;
+}
+header h1 {
+    justify-content: space-between;
+    padding: 20px 20px 20px 20px;
+
+}
 html{
     scroll-behavior: smooth;
     scroll-padding-top: 90px;
